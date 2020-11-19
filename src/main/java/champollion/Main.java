@@ -1,5 +1,7 @@
 package champollion;
 
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         Enseignant bastide = new Enseignant("Rémi Bastide", "Remi.Bastide@irit.fr");
@@ -21,7 +23,7 @@ public class Main {
                 bastide.heuresPrevuesPourUE(uml),
                 uml.getIntitule()
         );
-        
+
         
     }
     
